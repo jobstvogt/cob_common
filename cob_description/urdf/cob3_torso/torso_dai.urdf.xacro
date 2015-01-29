@@ -22,14 +22,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 ${-M_PI/2}" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_base_high.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_base_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="IPA/LightGrey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 ${-M_PI/2}" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_base_low.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_base_low.dae" scale="0.01 0.01 0.01"/>
         </geometry>
       </collision>
     </link>
@@ -55,14 +55,14 @@
       <visual>
         <origin xyz="0 -0.055 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="IPA/LightGrey" />
       </visual>
       <collision>
         <origin xyz="0 -0.055 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_low.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_low.dae" scale="0.01 0.01 0.01"/>
         </geometry>
       </collision>
     </link>
@@ -88,14 +88,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_pan_high.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_pan_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="IPA/LightGrey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_pan_low.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_pan_low.dae" scale="0.01 0.01 0.01"/>
         </geometry>
       </collision>
     </link>
@@ -121,7 +121,7 @@
       <visual>
         <origin xyz="0 0 -0.055" rpy="-${M_PI/2} ${M_PI} 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="IPA/LightGrey" />
       </visual>
@@ -129,7 +129,7 @@
         <origin xyz="0 0 -0.055" rpy="-${M_PI/2} ${M_PI} 0" />
         <geometry>
           <!--mesh filename="package://cob_description/meshes/cob3_torso/upper_neck_collision.stl" /-->
-          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_low.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_low.dae" scale="0.01 0.01 0.01"/>
         </geometry>
       </collision>
     </link>
@@ -150,14 +150,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/head_base.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/head_base.dae" scale="0.01 0.01 0.01"/>
         </geometry>
         <material name="IPA/LightGrey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_torso/head_base_collision.stl" scale="0.01 0.01 0.01"/>
+          <mesh filename="package://cob_description/meshes/cob3_torso/head_base_collision.dae" scale="0.01 0.01 0.01"/>
         </geometry>
       </collision>
     </link>

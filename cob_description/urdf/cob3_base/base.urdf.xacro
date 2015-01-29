@@ -151,7 +151,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />  
         <geometry>
-          <mesh filename="package://cob_description/meshes/cob3_base/base_cutted.stl"/>
+          <mesh filename="package://cob_description/meshes/cob3_base/base_cutted.dae"/>
           <!--box size="${base_size_x} ${base_size_y} ${base_collision_size_z}" /-->
         </geometry> 
         <material name="IPA/LightGrey"/>
@@ -159,7 +159,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-        <mesh filename="package://cob_description/meshes/cob3_base/base_collision_cutted.stl"/>
+        <mesh filename="package://cob_description/meshes/cob3_base/base_collision_cutted.dae"/>
           <!--box size="${base_size_x} ${base_size_y} ${base_collision_size_z}" /-->
         </geometry>
       </collision>
