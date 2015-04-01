@@ -24,7 +24,7 @@
         <geometry>
           <mesh filename="package://cob_description/meshes/cob3_torso/torso_base_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
-        <material name="IPA/LightGrey" />
+        <material name="IPA/Metal" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="${-M_PI/2} ${-M_PI/2} 0" />
@@ -57,7 +57,7 @@
         <geometry>
           <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
-        <material name="IPA/LightGrey" />
+        <material name="IPA/Metal" />
       </visual>
       <collision>
         <origin xyz="0 0 0.055" rpy="${-M_PI/2} 0 0" />
@@ -90,7 +90,7 @@
         <geometry>
           <mesh filename="package://cob_description/meshes/cob3_torso/torso_pan_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
-        <material name="IPA/LightGrey" />
+        <material name="IPA/Metal" />
       </visual>
       <collision>
         <origin xyz="0 0 -0.0715" rpy="${-M_PI/2} 0 ${M_PI}" />
@@ -123,7 +123,7 @@
         <geometry>
           <mesh filename="package://cob_description/meshes/cob3_torso/torso_tilt_high.dae" scale="0.01 0.01 0.01"/>
         </geometry>
-        <material name="IPA/LightGrey" />
+        <material name="IPA/Metal" />
       </visual>
       <collision>
         <origin xyz="0 0 0.055" rpy="-${M_PI/2} 0 0" />
@@ -152,7 +152,7 @@
         <geometry>
           <mesh filename="package://cob_description/meshes/cob3_torso/head_base.dae" scale="0.01 0.01 0.01"/>
         </geometry>
-        <material name="IPA/LightGrey" />
+        <material name="IPA/Metal" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
