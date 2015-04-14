@@ -42,7 +42,7 @@
       <axis xyz="0 0 1" />
       <dynamics damping="25.0" friction="10.0"/>
       <calibration rising="${torso_lower_neck_tilt_ref}"/>
-      <limit effort="200.0" lower="-0.43" upper="0.43" velocity="0.5"/>
+      <limit effort="200.0" lower="-0.43" upper="0.43" velocity="0.4"/>
       <!--safety_controller k_position="20" k_velocity="50" soft_lower_limit="${-0.37 + 0.01}" soft_upper_limit="${0.11 - 0.01}" /-->
     </joint>
 
@@ -75,7 +75,7 @@
       <axis xyz="0 0 1" />
       <dynamics damping="25.0" friction="10.0"/>
       <calibration rising="${torso_pan_ref}"/>
-      <limit effort="200.0" lower="-1.57" upper="1.57" velocity="0.5"/>
+      <limit effort="200.0" lower="-1.57" upper="1.57" velocity="0.4"/>
       <!--safety_controller k_position="20" k_velocity="50" soft_lower_limit="${-0.18 + 0.01}" soft_upper_limit="${0.18 - 0.01}" /-->
     </joint>
 
@@ -108,7 +108,7 @@
       <axis xyz="0 0 1" />
       <dynamics damping="25.0" friction="10.0"/>
       <calibration rising="${torso_upper_neck_tilt_ref}"/>
-      <limit effort="200.0" lower="-0.78" upper="0.78" velocity="0.5"/>
+      <limit effort="200.0" lower="-0.78" upper="0.78" velocity="0.4"/>
       <!--safety_controller k_position="20" k_velocity="50" soft_lower_limit="${-0.4 + 0.01}" soft_upper_limit="${0.39 - 0.01}" /-->
     </joint>
 
